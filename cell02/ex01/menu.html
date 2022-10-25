@@ -2,69 +2,31 @@
 <html>
 <head>
 	<title>Sandwich SNCF</title>
-	<style>
-	* {
-		/* margin: 0; */
-		padding: 0;
-		list-style-type: none;
-		box-sizing: border-box;
-	}
-	nav {
-		text-align: center;
-	}
-	.menu {
-		display: inline-block;
-	}
-	.menu > li {
-		float: left;
-		color: #e298e1;
-		width: 140px;
-		height: 40px;
-		line-height: 40px;
-		background: rgba(0, 0, 0, 0.7);
-		cursor: pointer;
-		font-size: 17px;
-	}
-	.sub-menu {
-		transform: scale(0);
-		transform-origin: top center;
-		transition: all 300ms ease-in-out;
-	}
-	.sub-menu li {
-		font-size: 14px;
-		background: rgba(0, 0, 0, 0.8);
-		padding: 8px 0;
-		color: white;
-		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-		transform: scale(0);
-		transform-origin: top center;
-		transition: all 300ms ease-in-out;
-	}
-	.sub-menu li:last-child {
-		border-bottom: 0;
-	}
-	.sub-menu li:hover {
-		background: black;
-	}
-	.menu > li:hover .sub-menu li {
-		transform: scale(1);
-	}
-	.menu > li:hover .sub-menu {
-		transform: scale(1);
-	}
-	</style>
+	<link rel="stylesheet" href="./menu.css" >
 </head>
 <body>
 	<nav>
 	<ul class="menu">
 
 		<li>
-		France
+		Sandwich SNCF :
 		<ul class="sub-menu">
-			<li>Paris</li>
-			<li>Bordeau</li>
-			<li>Marseille</li>
-			<li>Toulouse</li>
+			<li>	<img src="https://www.club-sandwich.net/images/photobreves/sncf-2013.jpg"
+				width="80"
+				height="60"/>
+				<br/>Le Parisien 15&euro;</li>
+			<li>	<img src="https://www.mada-hotels-consultant.com/wp-content/uploads/2018/07/Sandwich-les-Biquettes.jpg"
+				width="80"
+				height="60"/>
+				<br/>Le Biterrois 7&euro;</li>
+			<li>	<img src="https://cdn.cookingperfected.com/wp-content/uploads/2020/05/Chip-Butty.jpg"
+				width="80"
+				height="60"/>
+				<br/>Le montpellierain 9&euro;</li>
+			<li>	<img src="https://cdn.futura-sciences.com/sources/images/pourquoi-vin-contient-des-sulfites.jpg"
+				width="80"
+				height="60"/>
+				<br/>Le bordelais 18&euro;</li>
 		</ul>
 		</li>
 	</ul>
