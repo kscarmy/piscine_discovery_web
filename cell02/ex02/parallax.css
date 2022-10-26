@@ -1,0 +1,31 @@
+.parallax {
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow:hidden;
+	/* box-sizing:border-box; */
+}
+
+.parallax1 {
+	background-image: url("https://fr.gamewallpapers.com/download.php?img=wallpaper_world_of_tanks_05_1920x1080.jpg");
+}
+
+.parallax2 {
+	background-image: url("https://mmo-reference.com/img/1920x1200/_jeux//world-of-tanks/wallpaper/08.jpg");
+}
+
+.black {
+	background-image: url("https://www.solidbackgrounds.com/images/1920x1080/1920x1080-black-solid-color-background.jpg");
+}
+
+.p1 {
+	color: white;
+	font-size: 10px;
+	position: relative;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
