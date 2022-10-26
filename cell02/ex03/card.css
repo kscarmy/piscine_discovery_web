@@ -1,0 +1,27 @@
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	text-align: center;
+}
+tr:nth-child(even) {
+	/* background-color: #eee; */
+}
+tr:nth-child(odd) {
+	background-color: #fff;
+}     
+
+
+.black {
+	color: black;
+}
+
+.grey {
+	color: grey;
+}
+
+.cont {
+	background-color: black;
+	color: white;
+}
