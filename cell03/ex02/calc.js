@@ -23,11 +23,30 @@ function calcs(){
 		ret = Number(left) * Number(right);	}
 	if (operator == "/"){
 		console.log("/");
+		if (left == 0 || right == 0){
+			console.log("It's over 9000!");
+			alert("It's over 9000!");
+			return;
+		}
 		ret = Number(left) / Number(right);	}
 	if (operator == "%"){
 		console.log("%");
+		if (left == 0 || right == 0){
+			console.log("It's over 9000!");
+			alert("It's over 9000!");
+			return;
+		}
+		ret 
 		ret = Number(left) % Number(right);	}
 	
 	console.log("ret ", ret);
-	document.getElementById("res").innerHTML = ret;
+	alert(ret);
+	// document.getElementById("res").innerHTML = ret;
+}
+
+function repeat() {
+
+
+	alert("Plase, use me...");
+    setTimeout(repeat, 30000);
 }
