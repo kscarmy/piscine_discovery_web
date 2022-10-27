@@ -12,6 +12,8 @@ nav {
 	display: inline-block;
 }
 .menu > li {
+
+	user-select: none;
 	float: left;
 	color: burlywood;
 	width: 140px;

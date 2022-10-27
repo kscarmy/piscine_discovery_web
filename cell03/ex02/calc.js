@@ -2,7 +2,7 @@ function calcs(){
 	var left = document.getElementById("left").value;
 	var right = document.getElementById("right").value;
 	let e = document.getElementById("operator");
-	var operator = value = e.options[e.selectedIndex].value;
+	var operator = e.options[e.selectedIndex].value;
 
 	let ret = 0;
 	console.log("left ", left, " right ", right);
